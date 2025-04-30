@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Test_Website_Feburary_2025"
+  navbar:
+    background: primary
+    search: TRUE
+    left:
+        text: Home
+      - href: index.qmd
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
