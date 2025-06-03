@@ -1,0 +1,15 @@
+{
+  "hash": "5d1b4cabee83d571fa37a2cec0a82680",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Bowen_Test_Website_Feburary_2025\"\nauthor: \"NMolnar\"\nexecture: \n  echo: FALSE\n---\n\nThis is a test Quarto website for the future Bowen Lab Protocol website. Test protocols and code will be uploaded here.\n\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
