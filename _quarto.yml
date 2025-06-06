@@ -6,11 +6,18 @@ website:
   title: "Test_Website_Feburary_2025"
   navbar:
     background: primary
-    search: TRUE
+    search: true
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+  sidebar:
+    style: floating
+    search: true
+    contents: 
+     - text: "About"
+       href: about.qmd
+     - href: Uploading_sediment_16s_rRNA_data_to_SRA.qmd
 
 format:
   html:

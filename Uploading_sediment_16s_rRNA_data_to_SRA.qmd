@@ -1,0 +1,83 @@
+---
+title: "Uploading sediment 16s rRNA data to SRA"
+format: html
+editor: visual
+---
+
+Uploading sequence data to Genbank or SRA is necessary for publication and important for long-term archival of scientific projects. Use this guiding document alongside instructions on the NBCI website (which will always be more up-to-date than this) to upload your sequencing data.
+
+Use the [NBCI Submission Portal](https://submit.ncbi.nlm.nih.gov/) to get started. This portal will direct you to the most appropriate submission tool for your data.
+
+Depending on what type of samples you have, the details of each step may differ. However, the broad strokes of this protocol will remain the same.
+
+# Sequence Read Archive (SRA)
+
+For uploading minimally-processed read data from high throughput platforms. This includes unassembled 16s rRNA the Bowen lab receives from the Tufts sequencing facility and Azenta (both use the Ilummina MiSeq platform).
+
+Detailed instructions can be found at <https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/#6-sra-metadata>.
+
+Information to collect before starting this process:
+
+1\. Project Information
+
+-   \[ \] Project Title
+
+-   \[ \] Project Description
+
+-   \[ \] Grant Information
+
+-   \[ \] External Information (If Applicable)
+
+2\. Sample Metadata (Varies )
+
+-   \[ \] Sample Names
+
+-   [ ] Organism of origin
+
+-   [ ] Collection Date
+
+-   [ ] Depth (below surface)
+
+-   [ ] Elevation (above sea level)
+
+-   [ ] Broad scale environment description
+
+-   [ ] Local scale environment description
+
+-   [ ] environmental medium
+
+-   [ ] geographical origin of sample
+
+-   [ ] latitude and longitude
+
+-   [ ] Additional Information as collected (not required)
+
+    -   [ ] SRA requires each sample row to have at least one unique identifier - i.e., no two sample rows can share the exact same metadata. They do not count the sample_name, sample_title, or bioproject_accession columns as unique identifiers.
+
+    -   [ ] It's often helpful to create a column with a unique identifier for each sample (which can be a modification of the sample name).
+
+3.  SRA Metadata (metadata which links sample data to uploaded files)
+
+-   [ ] Library Strategy
+
+    -   [ ] AMPLICON for 16s rRNA
+
+-   [ ] Library Source
+
+    -   [ ] METAGENOMIC
+
+-   [ ] Library Selection
+
+    -   [ ] PCR
+
+-   [ ] Library Layout (single or paired)
+
+    -   [ ] Paired
+
+-   [ ] Platform
+
+    -   [ ] Illumina
+
+-   [ ] Instrument Model
+
+    -   [ ] Illumina Miseq
